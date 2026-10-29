@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home / X</title>
+    <link rel="shortcut icon" href="https://abs.twimg.com/favicons/twitter-pip.3.ico">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./css/output.css">
+</head>
+
+<body class=" bg-black text-white">
+    <div class="flex md:container mx-auto my-4 ">
+        <div class="first  w-10 md:w-[70%]">
+
+            <div class="sidebar flex md:items-end flex-col sticky top-0 ">
+                <div class="logo invert my-4 mx-2 md:mx-16">
+
+                    <svg viewBox="0 0 24 24" aria-hidden="true"
+                        class="w-8 m-auto r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+                        <g>
+                            <path
+                                d="M21.742 21.75l-7.563-11.179 7.056-8.321h-2.456l-5.691 6.714-4.54-6.714H2.359l7.29 10.776L2.25 21.75h2.456l6.035-7.118 4.818 7.118h6.191-.008zM7.739 3.818L18.81 20.182h-2.447L5.29 3.818h2.447z">
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+
+                <ul class="flex flex-col text-2xl space-y-3 md:px-11 font-bold w-full">
+                    <li
+                        class="flex md:justify-start items-center  gap-3 justify-centre md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        <span class="text-3xl material-symbols-outlined">
+                            home
+                        </span>
+                        <span class="hidden md:block">
+                            home
+                        </span>
+                    </li>
+                    <li
+                        class="flex md:justify-start items-center  gap-3 justify-centre md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        <span class="text-3xl material-symbols-outlined">
+                            search
+                        </span>
+                        <span class="hidden md:block">
+                            Explore
+                        </span>
+                    </li>
+                    <li
+                        class="flex md:justify-start items-center  gap-3 justify-centre md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        <span class="text-3xl material-symbols-outlined">
+                            notifications
+                        </span>
+                        <span class="hidden md:block">
+                            Notifications
+                        </span>
+                    </li>
+                    <li
+                        class="flex md:justify-start items-center  gap-3 justify-centre md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        <span class="text-3xl material-symbols-outlined">
+                            message
+                        </span>
+                        <span class="hidden md:block">
+                            Grok
+                        </span>
+                    </li>
+                    <li
+                        class="flex md:justify-start items-center  gap-3 justify-centre md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        <span class="text-3xl material-symbols-outlined">
+                            lists
+                        </span>
+                        <span class="hidden md:block">
+                            Lists
+                        </span>
+                    </li>
+                    <li
+                        class="flex md:justify-start items-center  gap-3 justify-centre md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        <span class="text-3xl material-symbols-outlined">
+                            bookmarks
+                        </span>
+                        <span class="hidden md:block">
+                            Bookmarks
+                        </span>
+                    </li>
+                    <li
+                        class="flex md:justify-start items-center  gap-3 justify-centre md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        <span class="text-3xl material-symbols-outlined">
+                            communities
+                        </span>
+                        <span class="hidden md:block">
+                            Communities
+                        </span>
+                    </li>
+                    <li
+                        class="flex md:justify-start items-center  gap-3 justify-centre md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        <span class="text-3xl material-symbols-outlined">
+                            box
+                        </span>
+                        <span class="hidden md:block">
+                            Premium
+                        </span>
+                    </li>
+                    <li
+                        class="flex md:justify-start items-center  gap-3 justify-centre md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        <span class="text-3xl material-symbols-outlined">
+                            person
+                        </span>
+                        <span class="hidden md:block">
+                            Profile
+                        </span>
+                    </li>
+                    <li
+                        class="flex md:justify-start items-center  gap-3 justify-centre md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        <span class="text-3xl material-symbols-outlined">
+                            more
+                        </span>
+                        <span class="hidden md:block">
+                            More
+                        </span>
+                    </li>
+                    <li>
+                        <div class="hidden md:block  button w-full text-center  my-4 ">
+                            <button class=" bg-blue-600 px-20 py-3 text-xl rounded-full text-white ">Post</button>
+                            <button class="md:hidden bg-blue-600 px-2 md:px-4 py-1 md:py-3 text-xl rounded-full text-white "><span
+                                    class="material-symbols-outlined">
+                                    edit
+                                </span></button>
+                        </div>
+
+                    </li>
+                </ul>
+
+                <div class="userprofile w-full mt-10">
+                    <div class="item p-3 flex items-center gap-3 hover:bg-gray-800 cursor-pointer w-fit">
+                
+                        
+                        <div class="image m-4 h-12 ">
+                            <img class="w-20 rounded-full" src="https://pbs.twimg.com/profile_images/1647334415029391361/yZDsVbpm_bigger.jpg"
+                                alt="">
+                        
+                        </div>
+                
+                        <div class="p2 flex-1 min-w-0">
+                            <div>Fahad</div>
+                            <div class="text-gray-500 text-sm">@fahad_abdullah</div>
+                        </div>
+                        <div class="text-xl">...</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="second w-full border-2px border-x-gray-500 border-y-black  ">
+
+            <div class="top flex p-3  sticky top-0 bg-black backdrop-blur-3xl opacity-80">
+                <div class="absolute w-16 h-1 rounded-full bg-blue-500 bottom-0 left-[19%] z-10"></div>
+                <div class="left  w-1/2 flex justify-center  font-bold text-lg">For You</div>
+                <div class="right  w-1/2 flex justify-center  font-bold text-lg">Following</div>
+                <div class="settings mx-2"><span class="material-symbols-outlined">settings</span></div>
+            </div>
+            <div class="h-1px w-full bg-gray-700"></div>
+            <div class="whatishapp flex gap-4 my-3">
+                <div class="image m-4 ">
+                        <img class="w-16 rounded-full"
+                            src="https://instagram.fdel93-1.fna.fbcdn.net/v/t51.82787-19/629462040_18415783942187809_783462543222352768_n.jpg?_nc_cat=105&ig_cache_key=GBjUhCUhayLUDm1BAICrlzcIa98KbmNDAQAB0j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=sIxHERTzakAQ7kNvwF0Dl_p&_nc_oc=AdrpXR_5i-5hfyr8OLgcllGLMFnkX7eCJMcBjV20Ye3iUZByGHJiXoUleSbBmlCtxlb5-DHboZ3Zp2nOFJH0N6fN&_nc_zt=24&_nc_ht=instagram.fdel93-1.fna&_nc_gid=E5YbVglPyF5iQjrqj448Aw&_nc_ss=7b6a8&oh=00_AQSlWO5IswjL5ZE03weP4EGUiUNIDZWSE9yYzF0aW287dQ&oe=6AE8243B" alt="">
+
+                    </div>
+                <div class="w-full">
+                    <input class="w-full outline-none h-7 my-2 text-xl bg-black text-white " type="text"
+                        placeholder="What is happening?!">
+                    <div class="text-blue-600 flex items-center  gap-1 w-full my-4">
+                        <span class="material-symbols-outlined">globe_asia</span>
+                        <span class="font-bold">Everyone can reply</span>
+                    </div>
+                    <div class="w-[90%] h-[0.2px] bg-gray-700 my-3"></div>
+                    <div class="flex justify-between">
+                        <div class="blueicons flex items-center gap-2 text-gray-500">
+                            <span class="material-symbols-outlined cursor-pointer">image</span>
+                            <span class="material-symbols-outlined cursor-pointer">gif</span>
+                            <span class="material-symbols-outlined cursor-pointer">ballot</span>
+                            <span class="material-symbols-outlined cursor-pointer">sentiment_satisfied</span>
+                            <span class="material-symbols-outlined cursor-pointer">calendar_month</span>
+                            <span class="material-symbols-outlined cursor-pointer">pin_drop</span>
+                        </div>
+                        <div class="postbtn">
+                            <button
+                                class=" px-16 py-3 bg-blue-600 mx-10 text-lg rounded-full text-white font-bold cursor-pointer">Post</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="posts ">
+                <div class="post flex ">
+                    <div class="image m-4 ">
+                        <img class="w-16 rounded-full"
+                            src="https://instagram.fdel11-3.fna.fbcdn.net/v/t51.2885-19/10299788_1632819743635060_1564818683_a.jpg?_nc_cat=1&ig_cache_key=GIwpnQB0Ns14Cs0FAPs8RV0AAAAAYUULAAAB0j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=97WE1Pj-Sk8Q7kNvwG2x01S&_nc_oc=AdqAUaS8JV6qtMFOcQDFvPuPF9Q-LLH39VLVWfMDB4hoYI8VrkEyZyVhQ6er5ObR56yBeB2sS_kc2ocoAg0Y4oQC&_nc_zt=24&_nc_ht=instagram.fdel11-3.fna&_nc_ss=7b6a8&oh=00_AQRvjElSMJB6C5VbGyo24dJ4skGFA3aoa2M990Vm_Vtg8A&oe=6AE82D27"
+                            alt="">
+                
+                    </div>
+                    <div class="content mx-3 ">
+                        <span class="font-bold hover:underline cursor-pointer text-white">henrycavill
+                        </span><span class="text-gray-500">Henry Cavill . 2h</span>
+                        <div class="">Time, elegantly mastered.
+                        The Longines Master Collection.</div>
+                        <div class="postimg m-4 ml-0">
+                            <img class="rounded-xl"
+                                src="https://instagram.fdel93-3.fna.fbcdn.net/v/t51.82787-15/653463277_17985234509953112_8802567993499082712_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=MzI5MTA4NTU1MDQxMjAxMTI0NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=H6InKYnb3jUQ7kNvwG317og&_nc_oc=Adrh9Bs13YcaAf78JhqA3ib7t-S9tQZ6JGp-GhMqz-z6Rpm-AJTP3AVh3JmKIzoyIKQkHt4Uv2bvh7t5WxieGiNf&_nc_zt=23&_nc_ht=instagram.fdel93-3.fna&_nc_gid=zOTzsXzm-9893JLY1a8fNQ&_nc_ss=7b6a8&oh=00_AQR6npyPDIaJMgHssRsLGMUAav9HYmNrhe-mCFIWm5eDew&oe=6AE83FFE"
+                                alt="">
+                        </div>
+                        <div class="icons flex justify-between mr-4 text-gray-500 p-3">
+                
+                            <div
+                                class="icon flex flex-1 items-center  justify-center  cursor-pointer hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1">
+                                <span class="material-symbols-outlined">chat_bubble</span>
+                                <span class="text-sm">1k</span>
+                            </div>
+                
+                            <div
+                                class="icon flex flex-1 items-center  justify-center  cursor-pointer hover:text-green-500 hover:bg-gray-900 hover:rounded-full p-1">
+                                <span class="material-symbols-outlined">repeat</span>
+                            </div>
+                
+                            <div
+                                class="icon flex flex-1 items-center  justify-center  cursor-pointer hover:text-pink-500 hover:bg-gray-900 hover:rounded-full p-1">
+                                <span class="material-symbols-outlined">favorite</span>
+                            </div>
+                
+                            <div
+                                class="icon flex flex-1 items-center  justify-center  cursor-pointer hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1">
+                                <span class="material-symbols-outlined">bar_chart</span>
+                            </div>
+                
+                            <div
+                                class="icon flex flex-1 items-center  justify-center  cursor-pointer hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1">
+                                <span class="material-symbols-outlined ">bookmark</span>
+                            </div>
+                
+                        </div>
+                
+                    </div>
+                </div>
+                <hr>
+                <div class="post flex ">
+                    <div class="image m-4 ">
+                        <img class="w-16 rounded-full"
+                            src="https://instagram.fdel11-3.fna.fbcdn.net/v/t51.82787-19/800065651_18094476599430941_1208884733180181720_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fdel11-3.fna.fbcdn.net&_nc_cat=1&_nc_oc=Q6cZ2gF34WgXQvCnk-lKbD9ILCjO_rkn06QqcwFMkYUySwm_Nj7BLHIJCtyVtc07nRvJeK3K_XTdqrV4JIVbeiPnRqLL&_nc_ohc=D4T6MDhqalAQ7kNvwGUjeUZ&_nc_gid=vMmEbYMQZ63HCLTducMEiw&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQSH2ba4UMpNMS3DC33XJM6ZkXBejcf8EPag-x4EG_GEKA&oe=6AE8229F&_nc_sid=10d13b" alt="">
+                    </div>
+                    <div class="content mx-3 ">
+                        <span class="font-bold hover:underline cursor-pointer text-white">_antara_9559
+                        </span><span class="text-gray-500">Antara Pandey . 6h</span>
+                        <div class="">👀💟</div>
+                        <div class="postimg m-4 ml-0">
+                            <img class="rounded-xl"
+                                src="https://instagram.fdel93-2.fna.fbcdn.net/v/t51.82787-15/789213325_18093627674430941_8443582883115514453_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=Mzk3NTE5MzU0MzkyODU1Njk2MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTE3MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=N7gUw4aicU4Q7kNvwEh-ZYB&_nc_oc=AdofPvYLS040YPKKPoQsUZ1fwG5c9bQ4HZP2STseo7fBK81Uzjizm1j4z4oCymKTOnlGGHCfMAQE-2lLjQedNGtT&_nc_zt=23&_nc_ht=instagram.fdel93-2.fna&_nc_gid=YMFB-AtShNCMXp8JxyVJDw&_nc_ss=782a8&oh=00_AQRyHGt5MQ50oOZsnWQa7Ojlg6kY7fcdNB6RyLnDUERj4A&oe=6AE8202D" alt="">
+                        </div>
+                        <div class="icons flex justify-between mr-4 text-gray-500 p-3">
+
+                            <div
+                                class="icon flex flex-1 items-center  justify-center  cursor-pointer hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1">
+                                <span class="material-symbols-outlined">chat_bubble</span>
+                                <span class="text-sm">1k</span>
+                            </div>
+
+                            <div
+                                class="icon flex flex-1 items-center  justify-center  cursor-pointer hover:text-green-500 hover:bg-gray-900 hover:rounded-full p-1">
+                                <span class="material-symbols-outlined">repeat</span>
+                            </div>
+
+                            <div
+                                class="icon flex flex-1 items-center  justify-center  cursor-pointer hover:text-pink-500 hover:bg-gray-900 hover:rounded-full p-1">
+                                <span class="material-symbols-outlined">favorite</span>
+                            </div>
+
+                            <div
+                                class="icon flex flex-1 items-center  justify-center  cursor-pointer hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1">
+                                <span class="material-symbols-outlined">bar_chart</span>
+                            </div>
+
+                            <div
+                                class="icon flex flex-1 items-center  justify-center  cursor-pointer hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1">
+                                <span class="material-symbols-outlined ">bookmark</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <hr>
+                
+                <div class="post flex ">
+                    <div class="image m-4 ">
+                        <img class="w-16 rounded-full"
+                            src="https://instagram.fdel11-3.fna.fbcdn.net/v/t51.82787-19/791355236_18480100702111642_4213345078440129028_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fdel11-3.fna.fbcdn.net&_nc_cat=1&_nc_oc=Q6cZ2gEx8Z_HxP6NheYBHpO1ggcBhMn0DVh262MgSMoRIasVLlWreWCyTI0TzNbnUpItpLBwRNWWstJRHQpUp4kTJR3d&_nc_ohc=6TDOjZHAoe4Q7kNvwF_TaRf&_nc_gid=EYBEI-1cbQJnjXHueRkz8g&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQSkKgh-7wZE1cIiZ23LXYIoVv-4pvUhKDw_F6RvxexfSA&oe=6AE81DB4&_nc_sid=10d13b" alt="">
+
+                    </div>
+                    <div class="content mx-3 ">
+                        <span class="font-bold hover:underline cursor-pointer text-white">vidhivarmaa
+                        </span><span class="text-gray-500">@Veee . 3h</span>
+                        <div class="">💟Funzees</div>
+                        <div class="postimg m-4 ml-0">
+                            <img class="rounded-xl"
+                                src="https://instagram.fdel11-3.fna.fbcdn.net/v/t51.82787-15/868430560_18491516812111642_5125579871407571098_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=1&ig_cache_key=NDAxNzM0ODkwMzk0MTE4NzI1NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzAyNC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=kNw9lJQlvfYQ7kNvwF_MZ1c&_nc_oc=AdruDYP31blZMWZh0aQbjNA6BdCrQXfIaaal-yD33GW3_8e_yEkC9Owo9OAHobChCa1FplCpMip0crxaJGe5VUyT&_nc_ad=z-m&_nc_cid=2034&_nc_zt=23&_nc_ht=instagram.fdel11-3.fna&_nc_gid=YvD3KWhSndeZC9dLcc6jvA&_nc_ss=7a22e&oh=00_AQQeXODv-f-oZKywCBNE1etff402vzmZ3Kx7nVmGjmJVSg&oe=6AE81318" alt="">
+                        </div>
+                        <div class="icons flex justify-between mr-4 text-gray-500 p-3">
+
+                            <div
+                                class="icon flex flex-1 items-center  justify-center  cursor-pointer hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1">
+                                <span class="material-symbols-outlined">chat_bubble</span>
+                                <span class="text-sm">1k</span>
+                            </div>
+
+                            <div
+                                class="icon flex flex-1 items-center  justify-center  cursor-pointer hover:text-green-500 hover:bg-gray-900 hover:rounded-full p-1">
+                                <span class="material-symbols-outlined">repeat</span>
+                            </div>
+
+                            <div
+                                class="icon flex flex-1 items-center  justify-center  cursor-pointer hover:text-pink-500 hover:bg-gray-900 hover:rounded-full p-1">
+                                <span class="material-symbols-outlined">favorite</span>
+                            </div>
+
+                            <div
+                                class="icon flex flex-1 items-center  justify-center  cursor-pointer hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1">
+                                <span class="material-symbols-outlined">bar_chart</span>
+                            </div>
+
+                            <div
+                                class="icon flex flex-1 items-center  justify-center  cursor-pointer hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1">
+                                <span class="material-symbols-outlined ">bookmark</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <hr>
+                <div class="post flex ">
+                    <div class="image m-4 ">
+                        <img class="w-16 rounded-full"
+                            src="https://instagram.fdel11-3.fna.fbcdn.net/v/t51.82787-19/611196814_18559427704040236_3135379388134022278_n.jpg?_nc_cat=1&ig_cache_key=GI4fbiQsq4h-s_9BAIZczwnxGoMrbmNDAQAB0j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=qm1ywtM7xi4Q7kNvwFPKsjk&_nc_oc=AdrMfZqFryqYpSzskXAOp_HixVRZnTCMmeVEtBliJkQx7NsHPOVxxcYcZ_-wxjWDvCeNX0bgNf3r_wZRCkks2xjl&_nc_zt=24&_nc_ht=instagram.fdel11-3.fna&_nc_gid=DaXQ_TVJlFeJuGO2Hc53xw&_nc_ss=7b6a8&oh=00_AQRtCOuWdfyjqt36QFmLWxcuBjQe-6yAfvVFaKN11K9r7g&oe=6AE82985.gpej"
+                            alt="">
+                
+                    </div>
+                    <div class="content mx-3 ">
+                        <span class="font-bold hover:underline cursor-pointer text-white"> nameisnani
+                        </span><span class="text-gray-500">Nani . 2h</span>
+                        <div class="">October. 🤍</div>
+                        <div class="postimg m-4 ml-0">
+                            <img class="rounded-xl"
+                                src="https://instagram.fdel11-2.fna.fbcdn.net/v/t51.82787-15/627531104_18109372369731431_7152617903384757801_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=MzUzNTM4Mzc5NjQ5NTUzMjA1Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=vm00aOGMdbcQ7kNvwFMgVjK&_nc_oc=AdqS3X_ERz3g85y2qFQ_yAZhpoKlYS1-zKmVgIafUhducywdwqaTmedCNuQSH1M0Xto1M6KSbpW3w-C0gcjCPcxe&_nc_zt=23&_nc_ht=instagram.fdel11-2.fna&_nc_gid=4MRla2Fp1qc6darMVI4xuA&_nc_ss=7b6a8&oh=00_AQTLB4BCC7C8DcgEXAIPl1OjVHTt1vPhPi0LxxwXVe5eEQ&oe=6AE82374"
+                                alt="">
+                        </div>
+                        <div class="icons flex justify-between mr-4 text-gray-500 p-3">
+                
+                            <div
+                                class="icon flex flex-1 items-center  justify-center  cursor-pointer hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1">
+                                <span class="material-symbols-outlined">chat_bubble</span>
+                                <span class="text-sm">1k</span>
+                            </div>
+                
+                            <div
+                                class="icon flex flex-1 items-center  justify-center  cursor-pointer hover:text-green-500 hover:bg-gray-900 hover:rounded-full p-1">
+                                <span class="material-symbols-outlined">repeat</span>
+                            </div>
+                
+                            <div
+                                class="icon flex flex-1 items-center  justify-center  cursor-pointer hover:text-pink-500 hover:bg-gray-900 hover:rounded-full p-1">
+                                <span class="material-symbols-outlined">favorite</span>
+                            </div>
+                
+                            <div
+                                class="icon flex flex-1 items-center  justify-center  cursor-pointer hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1">
+                                <span class="material-symbols-outlined">bar_chart</span>
+                            </div>
+                
+                            <div
+                                class="icon flex flex-1 items-center  justify-center  cursor-pointer hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1">
+                                <span class="material-symbols-outlined ">bookmark</span>
+                            </div>
+                
+                        </div>
+                
+                    </div>
+                </div>
+                <hr>
+                <div class="post flex ">
+                    <div class="image m-4 ">
+                        <img class="w-16 rounded-full"
+                            src="https://instagram.fdel11-3.fna.fbcdn.net/v/t51.82787-19/828451241_18600557806071046_5178757476449563691_n.jpg?_nc_cat=1&ig_cache_key=GKkpYTEGrafYGxVCACu0rJF8pN5HbmNDAQAB0j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=63ccgj9AUC0Q7kNvwFNiCFD&_nc_oc=Adp8RjH_k0h2LUmBkwDYRIbKdYyOFaBUcrefE0kTy6ShvDt37tqEGH9KDR4eZhlwsLqHfrZU8kjJEr5CEfHoIyXv&_nc_zt=24&_nc_ht=instagram.fdel11-3.fna&_nc_gid=hpoGGdbaZ-XccmRQqouWEw&_nc_ss=7b6a8&oh=00_AQSLTuI_AJbX36gxNMtsjPpk2-KUIImQr_M-GSTJksfOgw&oe=6AE82C46" alt="">
+
+                    </div>
+                    <div class="content mx-3 ">
+                        <span class="font-bold hover:underline cursor-pointer text-white">arishfakhan138
+                        </span><span class="text-gray-500">Sayyed Arishfa Khan . 1h</span>
+                        <div class="">Bol na halke halke✨</div>
+                        <div class="postimg m-4 ml-0">
+                            <img class="rounded-xl"
+                                src="https://instagram.fdel93-3.fna.fbcdn.net/v/t51.82787-15/762864097_18583928647071046_1515246754331642212_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ig_cache_key=Mzk1NDY5NzcxMTEzNDE4NTE2NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzA3Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=jXO8yLPRFSgQ7kNvwHfJRTP&_nc_oc=AdqzeuYPuPo6cBOILRpLbJFqjxew232O8If6Siyf9tL_x8iTWUhQDKQGO8aC_H0Cg5RNayMTsRtPOrBjiZ_0ur6F&_nc_zt=23&_nc_ht=instagram.fdel93-3.fna&_nc_gid=6CaaFfG-7Ww8CRb3jgx21Q&_nc_ss=7b6a8&oh=00_AQR5PtYU5OWMJaV-lEc9YfJouJf4iWcZoYSN-4LHM8Do5g&oe=6AE83E34" alt="">
+                        </div>
+                        <div class="icons flex justify-between mr-4 text-gray-500 p-3">
+
+                            <div
+                                class="icon flex flex-1 items-center  justify-center  cursor-pointer hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1">
+                                <span class="material-symbols-outlined">chat_bubble</span>
+                                <span class="text-sm">1k</span>
+                            </div>
+
+                            <div
+                                class="icon flex flex-1 items-center  justify-center  cursor-pointer hover:text-green-500 hover:bg-gray-900 hover:rounded-full p-1">
+                                <span class="material-symbols-outlined">repeat</span>
+                            </div>
+
+                            <div
+                                class="icon flex flex-1 items-center  justify-center  cursor-pointer hover:text-pink-500 hover:bg-gray-900 hover:rounded-full p-1">
+                                <span class="material-symbols-outlined">favorite</span>
+                            </div>
+
+                            <div
+                                class="icon flex flex-1 items-center  justify-center  cursor-pointer hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1">
+                                <span class="material-symbols-outlined">bar_chart</span>
+                            </div>
+
+                            <div
+                                class="icon flex flex-1 items-center  justify-center  cursor-pointer hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1">
+                                <span class="material-symbols-outlined ">bookmark</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <hr>
+                <div class="post flex ">
+                    <div class="image m-4 ">
+                        <img class="w-16 rounded-full"
+                            src="https://instagram.fdel11-3.fna.fbcdn.net/v/t51.82787-19/532883506_18478399111078158_1777243098172341046_n.jpg?_nc_cat=1&ig_cache_key=GDIowx8OoQiPAaZBADa7E3ouCaoYbmNDAQAB0j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=fR61mH7IPzYQ7kNvwHr11lq&_nc_oc=AdrTsfRYtb4_irblmzKJVfzMV7qPAyuCUJpCDFfQa1-BzaUl5t5XIIQCs448Gd6tNeu1lF7q_VUvsuF234mwbe40&_nc_zt=24&_nc_ht=instagram.fdel11-3.fna&_nc_gid=EA9sYV8t5rKYTRgBLm1aVA&_nc_ss=7b6a8&oh=00_AQT94O3H48MaDdpMRSwU4cne_jufxIzrQJEGjlrRcs015g&oe=6AE84129"
+                            alt="">
+                
+                    </div>
+                    <div class="content mx-3 ">
+                        <span class="font-bold hover:underline cursor-pointer text-white">riyapandey.04
+                        </span><span class="text-gray-500">Riya Pandey . 3h</span>
+                        <div class="">Green forest 🍀🥀</div>
+                        <div class="postimg m-4 ml-0">
+                            <img class="rounded-xl"
+                                src="https://instagram.fdel93-2.fna.fbcdn.net/v/t51.75761-15/509273027_18469822783078158_5472765705323937975_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=MzY2MTA5NDg0NTY4NzU4MDQwNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=VPBuTIQ-TLwQ7kNvwHpedJ3&_nc_oc=AdokXUPIDjS7MAdwG51ULC4sB-P_Wr4ftopxXfnCC-fSA6EMg2fywAur2dglVpjEREIYy0AnGplMvkphop5RlAcI&_nc_zt=23&_nc_ht=instagram.fdel93-2.fna&_nc_gid=XKfj8CL9eGpskEAXAMGFHg&_nc_ss=7b6a8&oh=00_AQQQtP6DrUkWrurM_sUjgoZrduXj-_dLzXwDraeXuEWZ1g&oe=6AE8235A"
+                                alt="">
+                        </div>
+                        <div class="icons flex justify-between mr-4 text-gray-500 p-3">
+                
+                            <div
+                                class="icon flex flex-1 items-center  justify-center  cursor-pointer hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1">
+                                <span class="material-symbols-outlined">chat_bubble</span>
+                                <span class="text-sm">1k</span>
+                            </div>
+                
+                            <div
+                                class="icon flex flex-1 items-center  justify-center  cursor-pointer hover:text-green-500 hover:bg-gray-900 hover:rounded-full p-1">
+                                <span class="material-symbols-outlined">repeat</span>
+                            </div>
+                
+                            <div
+                                class="icon flex flex-1 items-center  justify-center  cursor-pointer hover:text-pink-500 hover:bg-gray-900 hover:rounded-full p-1">
+                                <span class="material-symbols-outlined">favorite</span>
+                            </div>
+                
+                            <div
+                                class="icon flex flex-1 items-center  justify-center  cursor-pointer hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1">
+                                <span class="material-symbols-outlined">bar_chart</span>
+                            </div>
+                
+                            <div
+                                class="icon flex flex-1 items-center  justify-center  cursor-pointer hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1">
+                                <span class="material-symbols-outlined ">bookmark</span>
+                            </div>
+                
+                        </div>
+                
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="third  w-full hidden md:block">
+
+            <div class="search m-3">
+                <input type="text" class="w-1/2 rounded-full bg-[#16181c] text-white px-2 py-4" placeholder="Search">
+            </div>
+            <div class="whats sticky top-0 m-3 bg-[#16181c] w-1/2 py-5 rounded-xl space-y-3">
+                <h1 class="text-xl font-bold px-3">Whats Happening</h1>
+                <div class="item p-3 hover:bg-gray-800 cursor-pointer px-3">
+                    <div class=" text-sm text-gray-200">Trending in india</div>
+                    <div class="font-bold">#Fahad</div>
+                    <div class="text-sm text-gray-200">420.3k Posts</div>
+                </div>
+                <div class="item p-3 hover:bg-gray-800 cursor-pointer px-3">
+                    <div class=" text-sm text-gray-200">Trending in india</div>
+                    <div class="font-bold">#Orry</div>
+                    <div class="text-sm text-gray-200">52.3k Posts</div>
+                </div>
+                <div class="item p-3 hover:bg-gray-800 cursor-pointer px-3">
+                    <div class=" text-sm text-gray-200">Trending in india</div>
+                    <div class="font-bold">#Galgotia College</div>
+                    <div class="text-sm text-gray-200">50.3k Posts</div>
+                </div>
+                <div class="item p-3 hover:bg-gray-800 cursor-pointer px-3">
+                    <div class=" text-sm text-gray-200">Trending in india</div>
+                    <div class="font-bold">#CJP</div>
+                    <div class="text-sm text-gray-200">42.3k Posts</div>
+                </div>
+            </div>
+
+            <div class="who sticky top-[50vh] m-3 bg-[#16181c] w-1/2 py-5 rounded-xl space-y-3 ">
+                <h1 class=" text-xl font-bold px-3 "> Who to Follow</h1>
+
+
+                <div class="item flex items-center gap-2 p-3">
+
+                    <div class="image  w-12 shrink-0">
+                        <img class="w-16 rounded-full object-cover"
+                            src="https://instagram.fdel3-2.fna.fbcdn.net/v/t51.82787-19/629462040_18415783942187809_783462543222352768_n.jpg?_nc_cat=105&_nc_map=urlgen_bucketless&ig_cache_key=GBjUhCUhayLUDm1BAICrlzcIa98KbmNDAQAB0j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=evNMdyt6WQcQ7kNvwEK1nfM&_nc_oc=AdoCMbsrwT0ME2gibShYYWOWqhkS6Uu_lmdyv1_Ln2bpQFqUgPoctlm5HLyZtxLJyXYCO58dyp7xOosxWHohkWip&_nc_zt=24&_nc_ht=instagram.fdel3-2.fna&_nc_gid=mKMx_XKNhc8Sk1HyJhEfnQ&_nc_ss=7b6a8&oh=00_AQOrHqqKOkG57L0OYwJs57wOAZVLhABzapx13dAbSZ8pew&oe=6AE42FBB"
+                            alt="Fahad">
+                    </div>
+
+                    <div class="font-bold flex-1 min-w-0">
+                        Fahad
+                        <div class="text-gray-600 text-sm font-normal truncate">
+                            @fahad_abdullah
+                        </div>
+                    </div>
+
+                    <button class="  shrink-0 text-black bg-white cursor-pointer rounded-full py-2 px-4 font-bold">
+                        Follow
+                    </button>
+
+                </div>
+
+
+                <div class="item flex items-center gap-2 p-3">
+
+                    <div class="image w-16 shrink-0">
+                        <img class="w-16 rounded-full object-cover"
+                            src="https://instagram.fdel3-5.fna.fbcdn.net/v/t51.82787-19/671817919_18178856797389878_8763477917730640494_n.jpg?_nc_cat=109&_nc_map=urlgen_bucketless&ig_cache_key=GL8gCyg2xNTtkpVAAG6SUDu8IJ55bmNDAQAB0j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy45NzcuQzMifQ%3D%3D&_nc_ohc=bmGilzP3ZLIQ7kNvwHGnDK4&_nc_oc=AdrbGRuYGGLT9hd6jwE5pIOoUhdeSlbD5CuoHzx7JE7moOBkbZreJVF1rx5o6TaSQSbx8aGXngDj73xfIIyeBFDI&_nc_zt=24&_nc_ht=instagram.fdel3-5.fna&_nc_gid=H1TEEGsqjlUpgbcG1PPwbA&_nc_ss=7b6a8&oh=00_AQNj1T5Nn--RMRUg8SjMfkNeCQ9vK1okh62ws80w58QvCg&oe=6AE45685"
+                            alt="Fahad">
+                    </div>
+
+                    <div class="font-bold flex-1 min-w-0">
+                        Vishal Prajapati
+                        <div class="text-gray-600 text-sm font-normal truncate">
+                            @vishal_prajapati
+                        </div>
+                    </div>
+
+                    <button class="shrink-0 text-black bg-white cursor-pointer rounded-full py-2 px-4 font-bold">
+                        Follow
+                    </button>
+
+                </div>
+
+                <div class="item flex items-center gap-2 p-3">
+
+                    <div class="image shrink-0">
+                        <img class="rounded-full w-16 object-cover "
+                            src="https://instagram.fdel3-2.fna.fbcdn.net/v/t51.82787-19/685679114_18335067001219991_8461158527060728147_n.jpg?_nc_cat=103&_nc_map=urlgen_bucketless&ig_cache_key=GAqi3iiXa4pzpSNBAFPZuOnZEmx1bmNDAQAB0j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=92xENzSwbCgQ7kNvwFEXgOW&_nc_oc=AdqmQWzR9trFrjnD1VYwcRiLJUUTvIn2zhR4HoBRytYMcaJk2Tmim8cTFBz62wIWJc4u-2FWMJ4jKetAGR2CwOTS&_nc_zt=24&_nc_ht=instagram.fdel3-2.fna&_nc_gid=llm-3rzpi3zQWFXOG_1D1A&_nc_ss=7b6a8&oh=00_AQPeDNKuJislScLVW_Cu9aKEFZVFFbLP-3wj2aPtsskfYg&oe=6AE425A3"
+                            alt="Yasir">
+                    </div>
+
+                    <div class="font-bold flex-1 min-w-0">
+                        Yasir Hammad
+                        <div class="text-gray-600 text-sm font-normal truncate">
+                            @yasir_hammad
+                        </div>
+                    </div>
+
+                    <button class="shrink-0 text-black bg-white cursor-pointer rounded-full py-2 px-4 font-bold">
+                        Follow
+                    </button>
+
+                </div>
+
+                <div class="flex justify-center text-blue-600 my-5 px-3 hover:underline cursor-pointer">Show more</div>
+
+            </div>
+            <div class="term sticky top-[90vh] text-xs text-gray-500 m-3 px-3 w-1/2 py-5 space-y-1">
+                <a href="https://x.com/en/tos" target="_blank" class="hover:underline cursor-pointer mx-2">
+                    Terms
+                </a>
+                
+                <a href="https://x.com/en/privacy" target="_blank" class="hover:underline cursor-pointer mx-2">
+                    Privacy
+                </a>
+                
+                <a href="https://help.x.com/en/rules-and-policies/x-cookies" target="_blank"
+                    class="hover:underline cursor-pointer mx-2">
+                    Cookies
+                </a>
+                
+                <a href="https://help.x.com/en/resources/accessibility" target="_blank" class="hover:underline cursor-pointer mx-2">
+                    Accessibility
+                </a>
+                
+                <a href="https://business.x.com/en/help/ads-policies" target="_blank" class="hover:underline cursor-pointer mx-2">
+                    Ads Info
+                </a>
+                
+                <a href="https://help.x.com/" target="_blank" class="hover:underline cursor-pointer mx-2">
+                    More
+                </a>
+                
+                <span class="mx-2">© 2026 X Corp.</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<!-- 28:20 hover effect se start krna hai 10/23/2026 -->
+<!-- 1:22:20 Post wale se start krna -->
+<!-- 2:00:00 who to follow wale se start krna -->
